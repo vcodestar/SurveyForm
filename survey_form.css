@@ -1,0 +1,121 @@
+/*
+Background image:
+    https://www.freepik.com/free-vector/flat-abstract-wireframe-background_15441840.htm#position=1
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e5f7;
+    background-image:  url("5574041.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.54);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 400px;
+    margin: 15px;
+    height: 600px;
+}
+
+form label {
+    display: flex;
+    justify-content: flex-start;  
+    width:45%;  
+    margin-bottom: 5px; 
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+
+
+
+h1 {
+    color: white;
+    padding: 8px;
+    border: 1px solid #fd5c63;
+    border-radius: 20px;
+}
+
+input {
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+input:focus {
+    border-radius: 15px;
+    /* box-shadow: inset; */
+}
+
+#description {
+    color: #fd5c63;
+    font-size: 22px;
+}
+
+#number {
+    display: flex;
+    border-radius: 15px;
+    justify-content: flex-start;
+    border: none;
+}
+
+#dropdown {
+    border: none;
+    margin-top: 15px;
+    border-radius: 15px;
+    width: 120px;
+    padding-left: 5px;
+    outline: none;
+}
+
+#radios, #radios2 {
+    padding-top: 15px;
+    min-width: 200px;
+}
+
+#checkbox {
+    min-width: 200px;
+    margin-top: 15px;
+}
+
+
+textarea {
+    margin-top: 20px;
+    width: 250px;
+    height: 100px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    resize: none;
+}
+
+#submit {
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    resize: none;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    background: #fd5c63;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+#submit:hover {
+    background: #E32636;
+}

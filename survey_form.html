@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="survey_form.css">
+  </head>
+  <body>
+    <h1 id="title">VC's Survey Form</h1>
+    <p id="description">Sports Survey</p>
+    <form id="survey-form">
+      <label id="name-label">Name:</label>
+      <input id="name" required placeholder="Vaggelis"></input>
+      <label id="email-label" >Email:</label>
+      <input id="email" type=email required placeholder="vaggelischasanis@gmail.com"></input>
+      <label id="number-label">Age:</label>
+      <input id="number" type=number min="0" max="10" placeholder="0"></input>
+    <select id="dropdown" name="Sport">
+      <option disabled selected>Select a sport</option>
+      <option> Basketball </option>
+      <option> Football </option>
+      <option> Other </option>
+    </select>
+    <div id="radios">    
+        <input type="radio" value="0" name="agree">Professional</radio>
+        <input type="radio" value="1" name="agree">Semi-Pro</radio>
+    </div>
+    <div id="radios2">
+        <input type="radio" value="0" name="agree2">Active</radio>
+        <input type="radio" value="1" name="agree2">Retired</radio>
+    </div>
+    <div id="checkbox">
+        <input type="checkbox" value="0">Coaching</input>
+        <input type="checkbox" value="1">Playing</input>
+    </div>
+    <textarea></textarea>
+    <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+
+
